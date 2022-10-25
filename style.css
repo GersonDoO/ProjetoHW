@@ -1,0 +1,129 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'fogo';
+    src: url(../fonts/blazed.ttf) format('truetype');
+    font-weight: normal;
+}
+
+:root {
+
+    --azul1: #41B4E4;
+    --azul2: #199FD9;
+    --azul3: #015EA7;
+    --vermelho: #E8282D;
+    --amarelo: #F6EB19;
+
+}
+
+body {
+    background: #015EA7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+     /* ----------------------- configs gerais ----------------------- */
+
+img {
+    max-width: 100%;
+    display: block;
+    
+}
+
+nav {
+    background-image: linear-gradient(to top, var(--azul1), var(--azul2), var(--azul3));
+    padding: 14px;
+    text-align: center;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    background: var(--azul1);
+    padding: 9px;
+    margin: 3px;
+    text-decoration: none;
+    text-align: center;
+    color: #254A59;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+
+/*  ----------------------- menu acima -----------------------  */
+
+
+main {
+    background: var(--azul1);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+    
+}
+
+main a {
+    text-decoration: none;
+    color: var(--vermelho);
+    
+}
+
+main img {
+    max-width: 800px;
+    min-width: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+main p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.1em;
+    text-indent: 20px;
+}
+
+main h1 {
+    color: var(--vermelho);
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.unleashed {
+    font-family: 'fogo';
+}
+
+.extra {
+    background: var(--azul3);
+    columns: 3;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.extra a {
+    color: black;
+    padding: 10px;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+}
+a:hover {
+    background: var(--azul3);
+    color: var(--vermelho);
+    transition: .5s;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
