@@ -36,6 +36,7 @@ header a {
 header img {
     grid-column: 2;
     place-self: center;
+    min-width: 150px;
 }
 
 .foto-pequena {
@@ -50,8 +51,8 @@ header img {
 }
 
 video {
-    max-width: 290px;
-    max-height: 450px;
+    max-width: 200px;
+    max-height: 380px;
     
 }
 
@@ -87,7 +88,6 @@ main {
 
 }
 
-
 .segunda-parte h1 {
     color: white;
     font-size: 4rem;
@@ -105,7 +105,7 @@ main {
 .caixas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 100%;
+    max-width: auto;
     gap: 50px;
     margin: 30px;
     
@@ -118,6 +118,7 @@ main {
 
 .caixa1 {
     grid-column: 1;
+    grid-row: 2;
     background: white;
     color: black;
     border-radius: 5px;
@@ -143,6 +144,11 @@ main {
     border-radius: 7px;
     justify-self: start;
     place-self: start;
+    max-width: auto;
+}
+
+.caixa3 img {
+    max-width: 50px;
 }
 
 .caixa4 {
@@ -160,7 +166,7 @@ main {
 }
 
 .caixas video {
-    grid-row: span 3;
+    grid-row: span 4;
     place-self: center;
 
 }
