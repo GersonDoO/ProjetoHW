@@ -77,9 +77,9 @@ main a {
 }
 
 main img {
-    max-width: 800px;
-    min-width: auto;
-    display: block;
+    min-width: 350px;
+    
+    display: inline-block;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
